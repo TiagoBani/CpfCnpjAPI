@@ -5,6 +5,7 @@
   "scripts": {
     "predev": "npm install",
     "dev": "next dev",
+    "prebuild": "npm install --production",
     "build": "next build",
     "start": "next start"
   },
