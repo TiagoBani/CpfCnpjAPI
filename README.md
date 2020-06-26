@@ -21,7 +21,7 @@ npm run dev
 
 [x] Validate 1 cpf or cnpj
 ```bash
-https://cpf-cnpj-api.tiagobani.vercel.app/api/cpfcnpj/v1/24116533602
+http://localhost:3000/api/cpfcnpj/v1/24116533602
 ```
 
 [x] Create path method post
@@ -33,6 +33,8 @@ https://cpf-cnpj-api.tiagobani.vercel.app/api/cpfcnpj/v1/24116533602
 [ ] call webhook with responses
 
 [ ] get result in batch
+
+[ ] resolve in deployment environment, path to chromium in folder of puppeteer is undefined
 
 
 ## Urls 
