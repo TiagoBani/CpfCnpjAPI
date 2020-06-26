@@ -19,7 +19,7 @@ async function getBatch ({ req, res }) {
 }
 
 async function batch (req, res) {
-  if (req.method === 'GET') getBatch({ req, res })
+  if (req.method === 'GET') await getBatch({ req, res })
   res.status(405).end() // Method Not Allowed
 }
 

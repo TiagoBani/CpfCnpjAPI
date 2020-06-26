@@ -17,7 +17,7 @@ async function postBatch ({ req, res }) {
 }
 
 async function batch (req, res) {
-  if (req.method === 'POST') postBatch({ req, res })
+  if (req.method === 'POST') await postBatch({ req, res })
   res.status(405).end() // Method Not Allowed
 }
 
